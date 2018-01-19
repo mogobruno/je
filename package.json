@@ -1,0 +1,30 @@
+{
+  "name": "json-editor",
+  "version": "1.0.0",
+  "description": "json editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "je": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogobruno/json-editor.git"
+  },
+  "keywords": [
+    "json",
+    "editor"
+  ],
+  "author": "Bruno Goncalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mogobruno/json-editor/issues"
+  },
+  "homepage": "https://github.com/mogobruno/json-editor#readme",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "jsonfile": "^4.0.0"
+  }
+}
